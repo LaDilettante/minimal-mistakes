@@ -1,39 +1,29 @@
-# Minimal Mistakes
+# Anh Le's blog
 
-**[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog built. Compatible with Jekyll 3.0 and up.
+Theme from **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)*.
 
-## Minimal Mistakes is all about:
+I describe my personal modifications below:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
+- Use Algolia for better search. Github pages only allows running `jekyll build`, not `jekyll algolia`, so set up `.travis.yml` to run `jekyll algolia` each time there is an update. `ALOGLIA_API_KEY` (admin key) is set on Travis' environment variable.
 
-![screenshot of Minimal Mistakes theme](http://mmistakes.github.io/minimal-mistakes/images/mm-theme-post-600.jpg)
+- Use Google Analytics and Google Site Verification.
 
-See a [live version of Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/) hosted on GitHub.
+- Use Disqus with Guest commenting turned on (do this on Disqus website)
 
-## Getting Started
 
-Minimal Mistakes takes advantage of Sass and data files to make customizing easier. These features require [Jekyll 2.x](https://github.com/mmistakes/minimal-mistakes/releases/tag/2.1.3) and will not work with older versions of Jekyll.
-
-To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/minimal-mistakes/theme-setup/) for more information.
-
-## Anh Le's modifications
 
 ### Setting up
-- `bundle update`
-- `bundle clean --force` if necessary
+- `bundle update` (`bundle clean --force` if necessary)
+- Check site configurations in `_config.yml`
+- Check default YAML front matter in `_config.yml` (i.e. how posts, pages, tags, categories appear by default) 
 
-### Copy to server
+### Copy to server (when I still hosted at Duke)
+
+The idea is to mount Duke CIFS (via VPN). Build the local site. Then copy the local site to `public_html/` in the mounted CIFS drive.
+
 - `gem install github-pages` if jekyll is not set up
-- Go to `/media/aql3/personal-webpage`, `git pull`
-- `jekyll build`
-- `cd ..`
-- `sudo rsync -av personal-webpage/_site/ public_html/` (a = all, v = verbose)
+- Go to `/media/aql3/personal-webpage`
+- `sudo rsync -av /link/to/personal-webpage/_site/ public_html/` (a = all, v = verbose)
 
 ### Some commands to remember
 

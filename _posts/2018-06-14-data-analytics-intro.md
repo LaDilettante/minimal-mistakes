@@ -3,12 +3,12 @@ title:     "A Short Introduction to Data Analytics"
 excerpt:   "that gives you enough to do for your first 3 months towards a job in 1 year."
 date:       2018-06-15 12:00:00
 toc: true
+toc_label: "Table of Contents"
 toc_sticky: true
 categories:
-  - data analytics
+  -
 tags:
   - advice
-  - personal
 ---
 
 Data analytics is the use of data to help make business decisions. Framed this way, it's nothing new. When [humans invented writing in 3500 BC to track debts](https://sites.utexas.edu/dsb/tokens/the-evolution-of-writing/), they were already using data to conduct business. So when the boss yells at you for the sales figure from last month, be comforted by the knowledge that you are part of an ancient tradition.
@@ -17,7 +17,7 @@ What is new about present-day data analytics is that there is a lot more data an
 
 [Despite being half-fiction](https://web.archive.org/web/20180423013132/http://www.dssresources.com/newsletters/66.php), the beer-and-diaper fable does convey how data can inform business decisions in new ways. In the 1990s, only Walmart and a handful of giants could mine their data. Today, even mid-size organizations sending out email marketing campaigns have enough data and tools to predict customer engagement. That means more jobs for you.
 
-# Skills you need for data analytics
+## Skills you need for data analytics
 
 If data analytics is the use of data to help make business decisions, then the analyst must also have both data skills and business sense. Every job and project has a different focus, but they are always a mix of the following four skills:
 
@@ -34,11 +34,11 @@ To find the job that you like and are qualified for is to go beyond job titles a
    
 - Facebook wants to know if its new design for the newsfeed increases user engagement. (1) Bob brainstorms what metrics measure user engagement. Is it the number of time an user click on a newsfeed item? The time spent on Facebook? The number of likes and shares? (2) Bob then talks to the data engineering team to get access to the data, likely stored in some internal data warehouse. If the metrics Bob wants is not yet tracked, he has to work with software engineers to implement those trackers himself. (3) Bob develops models to analyze the data, paying attention to whether different customer segments react differently. (4) Bob recommends whether to keep the design changes. He also develops a system that automatically analyzes customer engagement whenever there is a new design.
 
-# How to get data skills
+## Developing data skills
 
 An painter needs to know both brush techniques and color theory---how to paint and what to paint. Likewise, you need both programming tools and statistics---how to build a model and what model to build.
    
-## Programming
+### Programming
 
 - SQL. The vast majority of businesses store their data in SQL database. Knowing SQL lets you query and manipulate them. This is the one skill that virtually all data analysts will use.
   
@@ -64,7 +64,7 @@ An painter needs to know both brush techniques and color theory---how to paint a
   
   + [Wes McKinney's Python for data analysis](http://shop.oreilly.com/product/0636920023784.do). It introduces the Python ecosystem for data analysis, including Pandas, NumPy, and IPython. Highly recommended. Could be difficult if you are new to Python.
 
-## Statistics
+### Statistics
 
 If you are in school, I highly recommend taking classes from your Statistics department. Compared to programming, math is much harder to self-teach. When you make a mistake writing code, either the computer will throw an error or you will be able to see the wrong output. When you make a mistake doing math, there is no blinking red light telling you something is wrong. Without a teacher checking your work, it is very easy to go into dead-ends or hold on to a wrong understanding for months.
 
@@ -92,7 +92,7 @@ Other textbooks to complement your Statistics education.
  
 (Optional) If you want to master Statistics and have more than 1 year before finding a job, you can learn Linear Algebra and some Calculus for a stronger mathematical foundation. [Albert Strang's Linear Algebra (FREE)](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/) is an oft-recommended resource. [A short note from Andrew Ng's machine learning class (FREE)](http://cs229.stanford.edu/section/cs229-linalg.pdf) is also a great refresher.
 
-# How to get business sense 
+## Developing business sense 
 
 Companies expect you to come in with technical skills, not necessarily with industry knowledge. That makes sense. They know their industry, so they are confident they can teach you that. They don't know data analytics, so they want you to have the skills ready.
     
@@ -102,11 +102,11 @@ If you asked me how high fashion brands make money (which I know nothing about),
 
 Developing business sense isn't unique to data analytics. In fact, I develop mine by copying how management consultants prepare for their case interviews: browse the Wall Street Journal, read case studies, and follow industry news. Data science blogs are an excellent source of case studies. I particularly like [Airbnb](https://medium.com/airbnb-engineering), [Google](http://www.unofficialgoogledatascience.com/), [Stitch Fix](https://multithreaded.stitchfix.com/blog/), and my company, [Civis Analytics](https://medium.com/civis-analytics). [Hacker News](https://news.ycombinator.com/), a Reddit-like news aggregator, is another excellent source of tech news.
     
-# Learning how to learn
+## Learning how to learn
 
 Like many fields in tech, data analytics is constantly evolving. The programming languages and statistical models you use today will be obsolete in five years. Learning is the only constant in this evolving field, so it's important to learn how to learn.
 
-When you get stuck, learn how to use Google to find your answers. There is not a day that I don't Google "What is [a statistical term]," or "How to do X [in Python / R]." Very often you will see results from [StackOverflow](stackoverflow.com) and [Cross Validated](https://stats.stackexchange.com/), Q&A sites dedicated to programming and statistics. In your first 3 months learning data analytics, I guarantee that all of your beginner questions have already been asked and answered there. Get used to these Q&A sites.
+When you get stuck, learn how to use Google to find your answers. There is not a day that I don't Google "What is [a statistical term]," or "How to do X [in Python / R]." Very often you will see results from [StackOverflow](https://stackoverflow.com) and [Cross Validated](https://stats.stackexchange.com/), Q&A sites dedicated to programming and statistics. In your first 3 months learning data analytics, I guarantee that all of your beginner questions have already been asked and answered there. Get used to these Q&A sites.
 
 What's a lot trickier is how to Google what you don't know in the first place. Some of my favorite Google queries to find out my knowledge gaps are:
 
@@ -119,7 +119,7 @@ Textbooks and courses cover a topic systematically, and is also a great way to f
 
 Newsletters and discussion boards are another way to get exposure to topics you are not aware of. I subscribe to [Data Elixir](https://dataelixir.com/) and read [Hacker News](https://news.ycombinator.com/).
 
-# Finding data analytics jobs
+## Finding data analytics jobs
 
 The job market for data analytics is a hot mess. It's hot because everyone wants a part of the new field. It's a mess because the field is so new hiring is not yet standardized.
 
@@ -131,7 +131,7 @@ Another consequence of the field being so young is that hiring managers don't kn
 
 Tailor your project to fit the mix of business and data skills that your dream company wants. For purely technical projects, [Kaggle](https://www.kaggle.com/** gives you cleaned dataset with a defined metrics so that you can focus on the modeling part.
 
-# Glossary
+## Glossary
 
 **C / C++**: low-level programming language that is sometimes used to speed up Python and R. Can be safely ignored as beginners.
 
@@ -152,5 +152,7 @@ and a must-know.
 **SAS**: a programming language designed for data analysis, frequently used before R came to the scene. Due to decades-long contract, SAS is still widely used in pharmaceuticals, government, and insurance. Unless your target jobs use SAS, learn R or Python instead.
 
 **Stata**: a programming language designed for data analysis, frequently used by economists. It's also increasingly replaced by R and Python.
+
+## Footnotes
 
 <a name="footnote1">1</a>: Not only can modern data analytics discover relationships we don't expect, it can also find relationships we can't comprehend. Black box models like Random Forest or Neural Network can take an input, run it through a function complicated beyond human interpretation, and produce highly accurate predictions. They perform well even when we don't know how they do it.

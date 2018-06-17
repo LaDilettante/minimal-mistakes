@@ -31,6 +31,10 @@ I describe my personal modifications below:
 </script>
 ```
 
+### Nice to have
+
+- Setting up TravisCI to run htmlproofer to check for dead links and images
+
 ### Copy to server (when I still hosted at Duke)
 
 The idea is to mount Duke CIFS (via VPN). Build the local site. Then copy the local site to `public_html/` in the mounted CIFS drive.

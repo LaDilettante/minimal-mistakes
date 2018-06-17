@@ -3,6 +3,8 @@ title:      "Emacs for Data Science: a Newb-Friendly Setup"
 subtitle:   "Replacing RStudio, Spyder, and TexStudio with Emacs."
 ---
 
+Update: Since the beginning of my experiment with Emacs, I have switched to Spacemacs. Spacemacs is a community-driven configuration for Emacs. It works well for most users right out of the box.
+
 I recently took the plunge to using Emacs, coming from a Data Science background using RStudio for R and Spyder for Python.
 
 While there are already a lot of people sharing their Emacs setting, I find most setups highly idiosyncratic, showing off the heavy customization that suits the author's particular work style. That approach often confuses rather than helps newbies like me who are used to IDEs.
@@ -19,8 +21,6 @@ So below is *my* Emacs configuration (`init.el`), built upon days of Googling. I
 - Self-contained: Taking advantage of the `use-package` package, you can copy-paste my `init.el` into your setup. `use-package` will then download any missing packages by itself.
 - Compartmentalized: Separate sections sets up separate tech stack, e.g. R, Python, Latex, Markdown. You can copy and paste only the parts you want and it will work. I highly recommend that you try one at a time.
 - Documented: Links to blog posts and StackOverflow threads explain the why and the how behind each setting.
-
-I also put [the latest version of the file on Github](https://github.com/LaDilettante/emacs.d/blob/master/init.el).
 
 ```lisp
 ; See https://emacs.stackexchange.com/questions/5828/why-do-i-have-to-add-each-package-to-load-path-or-problem-with-require-packag

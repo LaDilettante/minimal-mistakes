@@ -63,7 +63,7 @@ search_full_content      : true # true, false (default)
 search_provider          : algolia # lunr (default), algolia, google
 algolia:
   application_id         : DBRWRM3H0Y # YOUR_APPLICATION_ID
-  index_name             : "Anh Le's blog" # YOUR_INDEX_NAME
+  index_name             : anhle_blog # YOUR_INDEX_NAME
   search_only_api_key    : 0cbe55316daa0670482609bb4647f40b # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : true # true (default), false
   files_to_exclude:
@@ -267,6 +267,13 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

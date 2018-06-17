@@ -3,6 +3,12 @@ title:     "A Short Introduction to Data Analytics"
 excerpt:   "that gives you enough to do for your first 3 months towards a job in 1 year."
 date:       2018-06-15 12:00:00
 toc: true
+toc_sticky: true
+categories:
+  - data analytics
+tags:
+  - advice
+  - personal
 ---
 
 Data analytics is the use of data to help make business decisions. Framed this way, it's nothing new. When [humans invented writing in 3500 BC to track debts](https://sites.utexas.edu/dsb/tokens/the-evolution-of-writing/), they were already using data to conduct business. So when the boss yells at you for the sales figure from last month, be comforted by the knowledge that you are part of an ancient tradition.

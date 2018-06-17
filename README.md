@@ -10,12 +10,26 @@ I describe my personal modifications below:
 
 - Use Disqus with Guest commenting turned on (do this on Disqus website)
 
+### Installation
 
+- Install Jekyll (including Ruby, `gem install bundler jekyll`)
+- Clone minimal mistakes github
+- Migrate content (posts, pages)
+- Get rid of `gemspec` in Gemfile and .gemspec file (Don't really understand this step though. Gemspec seems like a development tool for the author to develop the theme into a gem. Since I'm only an user of the gem I don't need it?)
 
 ### Setting up
 - `bundle update` (`bundle clean --force` if necessary)
 - Check site configurations in `_config.yml`
 - Check default YAML front matter in `_config.yml` (i.e. how posts, pages, tags, categories appear by default) 
+- Change `_data/navigation.yml` for header nav bar
+- Include Mathjax by inserting into `_include/head/custom.html` the following
+
+```
+<!-- Mathjax script -->
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+```
 
 ### Copy to server (when I still hosted at Duke)
 

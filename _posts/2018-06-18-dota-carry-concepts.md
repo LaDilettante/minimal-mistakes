@@ -17,15 +17,15 @@ The carry role only has two objectives to optimize. When you are not in teamfigh
 
 ### Maintaining lane equilibrium
 
-With 1 hour of practice, most people can get more than 80% of last hits in  a free, uncontested lane. The problem, of course, is that the enemy offlaners won't leave you alone. The key to maximize your last hits is to minimize enemy offlaners' disruption.
+With 1 hour of practice, most people can get more than 80% of last hits in  a free, uncontested lane. The problem, of course, is that the enemy offlaners won't leave you alone. The key to maximize your last hits is to minimize this disruption.
 
-You minimize offlaners' disruption by starving them of experience. This is because offlane heroes tend to be significantly more powerful with levels. For example, Axe level 3 is much stronger than Axe level 1, thanks to 2 levels in spins and 1 level in call.[^1]  In contrast, carries scale with items, and thus tend not to have a power spike with early levels. For example, Anti-Mage level 3 and Anti-Mage level 1 are fundamentally the same. Therefore, if Axe and Anti-Mage are both level 3, Axe can disrupt Anti-Mage a lot more than if both are level 1.
+You minimize the offlaner' disruption by starving them of experience. This is because offlane heroes tend to be significantly more powerful with levels. For example, Axe level 3 is much stronger than Axe level 1, thanks to 2 levels in spins and 1 level in call.[^1]  In contrast, carries scale with items, and thus tend not to have a power spike with early levels. For example, Anti-Mage level 3 and Anti-Mage level 1 are fundamentally the same. Therefore, if Axe and Anti-Mage are both level 3, Axe can disrupt Anti-Mage a lot more than if both are level 1.
 
 [^1]: Other traditional offlane heroes, like Centaur, Underlord, Dark Seer, Abaddon also have this power spike with early levels.
 
 You starve the offlaner of experience by maintaining the lane equilibrium. Never hit the enemy creeps except for last hitting! If you hit the enemy creeps once, also hit your own creeps once so that the lane equilibrium is not disrupted. Ideally, you want the lane equilibrium right outside of your tower range. This position lets you run back to your tower in case of ganks, while requiring the enemy offlaner to be far away from his tower's protection.
 
-Since the offlaner will inevitably mess with the lane, you need to know not only how to maintain, but also to dictate the equilibrium. To dictate the lane equilibrium to your liking, the most important factor is denying the ranged creep. In each creep wave, the ranged creep deals a lot more damage than the melee. If a ranged creep survive after its wave, your subsequent waves will deal slightly more damage, causing another ranged creep to survive. In only 2 or 3 waves, the lane equilibrium will spiral out of control this way, pushing under the enemy tower, giving the offlaner the experience he desperately wants.
+Since the offlaner will inevitably mess with the lane, you need to know how to not only maintain but also dictate the equilibrium. The most important factor is denying the ranged creep. In each creep wave, the ranged creep deals a lot more damage than the melee. If a ranged creep survive, your subsequent waves will deal slightly more damage, causing yet another ranged creep to survive. In only 2 or 3 waves, the lane equilibrium will spiral out of control this way, pushing under the enemy tower, giving the offlaner the experience under the tower's protection.
 
 BSJ explains in this segment how to deny your ranged creep by manipulating creep aggro.
 
@@ -39,7 +39,7 @@ Note that **maintaining the lane equilibrium is more important than getting a ki
 
 ### Against a tough lane
 
-If you face a tough lane, either solo or dual, you can't freely dictate the lane equilibrium as above. (Indeed, if the enemy offlaner is not zoned out by your support, he has exactly the same toolkit as you do to manipulate the lane equilibrium.) In this case, you can't stop the offlaners from getting farm and exp. Instead, focus on getting your own farm, using creep aggro to draw enemy creeps towards you, making it easier to last hit. (Nothing can stop you from doing this because the enemy can't aggro his own creeps.) BSJ explains how to:
+If you face a tough lane, either solo or dual, you can't freely dictate the lane equilibrium as above. (Indeed, if the enemy offlaner is not zoned out by your support, he has exactly the same toolkit as you do to manipulate the lane equilibrium.) In this case, you can't stop the offlaners from getting farm and experience. Instead, focus on getting your own farm, using creep aggro to draw enemy creeps towards you, making it easier to last hit. (Nothing can stop you from doing this because the enemy can't aggro his own creeps.) BSJ explains how to:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MDtYOGjzRVc?start=234" frameborder="0" allowfullscreen></iframe>
 
@@ -75,13 +75,15 @@ To get the enemy tower, you need to maintain a lead over the enemies. This is wh
 
 ### Farming pattern
 
-In the mid game, the limiting factor to your farm is map control. Indeed, with some items and levels, farming is no longer about whether you can creep creep fast enough, but about whether you can do it safe enough.
+In the mid game, the limiting factor to your farm is map control. Indeed, with some items and levels, farming is no longer about whether you can kill creep fast enough, but about whether you can do it safe enough.
 
-To gain map control, the priority list in your farming pattern should always be: *tower > Roshan > lane creep > neutral creep*. Destroying enemy tower and Roshan is obvious. Without tower, enemies can't TP in to stop you from farming. With Aegis, you are can take more risk in farming.
+To gain map control, the priority list in your farming pattern should always be: *tower > Roshan > lane creep > neutral creep*. Destroying enemy tower and Roshan is obvious. Without tower, enemies can't TP in to stop you from farming. With Aegis, you can take more risk in farming.
 
-More interesting is why lane creep are more important than neutrals. At the most basic level, lane creeps give more gold. But much more importantly, by killing lane creeps, you shove your creeps towards their tower, giving you vision and information. If you see defending their towers, you know that you can farm aggressively. If not, farm conservatively.
+More interesting is why lane creeps are more important than neutrals. At the most basic level, lane creeps give more gold. But much more importantly, by killing lane creeps, you shove the lane towards enemy towers, giving you vision and information. If you see enemies defending their towers, you can farm aggressively. If not, farm conservatively near your team.
 
-Even when you can't farm lane creeps, try to farm neutrals that are close to the next objective. This way, if an opportunity arises (e.g. all enemies TP-ing to the opposite lane), you have the option to take the objective.
+Even when you can't farm lane creeps, try to farm neutrals that are close to the next objective. This way, if an opportunity arises (e.g. all enemies TP-ing to the opposite lane), you have the option to take the objective.[^2]
+
+[^2]: It's not trivial to know what the next objective should be, or what qualifies as an opportunity to take it. Such depth is beyond the scope of this post.
 
 ### Summary
 

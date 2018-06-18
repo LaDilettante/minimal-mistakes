@@ -11,7 +11,7 @@ tags:
   - dota-2
 ---
 
-The carry role has only two objectives to optimize. When you are not in teamfight, farm as much as possible. When you are in teamfight, deal as much damage as possible.
+The carry role only has two objectives to optimize. When you are not in teamfight, farm as much as possible. When you are in teamfight, deal as much damage as possible. In this post, we focus on the farming aspect.
 
 ## Laning phase
 

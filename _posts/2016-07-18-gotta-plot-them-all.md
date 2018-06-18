@@ -93,7 +93,7 @@ To see how much variance in Pokemon's stats is explained by the principal compon
 screeplot(pca, type = "lines", main = "Scree plot")
 {% endhighlight %}
 
-<img src="/~aql3/figure/source/2016-07-18-gotta-plot-them-all/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
+<img src="/figure/source/2016-07-18-gotta-plot-them-all/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
 What do these two principal components represent? To understand their meaning, we project the 6 original stats onto the lower 2-dimensional space spanned by the two principal components. The 6 original stats are shown as the red vectors in the `biplot` below.
 
@@ -110,7 +110,7 @@ biplot(pca, cex = c(0.6, 0.85), arrow.len = 0.05,
        ylab = "PC2 - Brawn over Brain")
 {% endhighlight %}
 
-<img src="/~aql3/figure/source/2016-07-18-gotta-plot-them-all/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
+<img src="/figure/source/2016-07-18-gotta-plot-them-all/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 
 So here are the 151 Pokemons plotted on the space spanned by these two PCs. Mewtwo and Margikarp are, unsurprisingly, on the two extremes of the "Overall Strength" PC.
 
@@ -144,7 +144,7 @@ f_plot <- function(pd) {
 f_plot(pd)
 {% endhighlight %}
 
-<img src="/~aql3/figure/source/2016-07-18-gotta-plot-them-all/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="/figure/source/2016-07-18-gotta-plot-them-all/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 One way to think about PC2 is via the classic dilemma of choosing which Psychic pokemon for your team: Hypno or Alakazam. Looking at where these Pokemons position on the graph, we can see that both have similar overall strength (with Alakazam having slightly more). But along PC2, Alakazam places at the bottom of PC2, i.e. leaning heavily towards special stats at the exense of regular stats. On the other hand, Hypno has very balanced stats. That's why lots of people choose Hypno as a robust Psychic type rather than the glass cannon that is Alakazam.
 
@@ -154,7 +154,7 @@ f_plot(pd %>% filter(name %in% c("abra", "kadabra", "alakazam",
                                  "drowzee", "hypno")))
 {% endhighlight %}
 
-<img src="/~aql3/figure/source/2016-07-18-gotta-plot-them-all/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
+<img src="/figure/source/2016-07-18-gotta-plot-them-all/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
 
 The three starter Pokemons are very balanced, with Charmander having a slight edge as it evolves to Charizard. If you squint really hard, it also seems like that strongest Pokemon at the first stage (Squirtle) turns out to be weakest at the final stage (Blatoise), and vice versa for Charmander and Charizard. That's game balance design at work!
 
@@ -164,7 +164,7 @@ The three starter Pokemons are very balanced, with Charmander having a slight ed
 f_plot(pd %>% filter(id %in% 1:9))
 {% endhighlight %}
 
-<img src="/~aql3/figure/source/2016-07-18-gotta-plot-them-all/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
+<img src="/figure/source/2016-07-18-gotta-plot-them-all/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
 
 The final plot shows how Arcanine, my favorite Pokemon, rivals the Legendary birds in terms of stats. Indeed, [Arcanine was planned to be a Legendary](http://30.media.tumblr.com/tumblr_lhkx6pz3W51qdippyo1_500.png), but got changed before the game came out. Reddit has an entire thread devoted to this ["Pokemon conspiracy"](https://www.reddit.com/r/pokemonconspiracies/comments/2uu7lc/arcanine_was_meant_to_be_a_legendary/).
 
@@ -173,6 +173,6 @@ The final plot shows how Arcanine, my favorite Pokemon, rivals the Legendary bir
 f_plot(pd %>% filter(name %in% c("arcanine", "moltres", "zapdos", "articuno")))
 {% endhighlight %}
 
-<img src="/~aql3/figure/source/2016-07-18-gotta-plot-them-all/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
+<img src="/figure/source/2016-07-18-gotta-plot-them-all/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
 
 [^1]: It's recommended to normalize the data before running the PCA so that the variance of variables are not affected by the units that they are measured in. In this case it's not necessary because Pokemon stats are all on the same scale.

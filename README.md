@@ -31,6 +31,8 @@ I describe my personal modifications below:
 </script>
 ```
 
+More on Mathjax in Jekyll http://www.gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/
+
 ### Nice to have
 
 - Setting up Algolia as search (in `_config.yml` and setting up `.travis.yml`)
@@ -45,12 +47,27 @@ The idea is to mount Duke CIFS (via VPN). Build the local site. Then copy the lo
 - Go to `/media/aql3/personal-webpage`
 - `sudo rsync -av /link/to/personal-webpage/_site/ public_html/` (a = all, v = verbose)
 
+### Writing options
+
+- Footnote
+```
+I need a footnote here.[^1]
+[^1]: This is my footnote
+```
+
+- Math
+  + Use `\\(x^2\\)` for inline-math and `\\[a^2 + b^2 = c^2\\]` for equations
+  + MathJax can do equation numbering and referencing: http://docs.mathjax.org/en/latest/tex.html
+
+- Jupyter Notebook
+Write posts in Jupyter Notebook, convert to markdown, and move images to the figure folder. Remember to use `\\( \\)` and `\\[ \\]` for a seamless conversion to Markdown (instead of `$ $` and `$$ $$`).
+
 ### Some commands to remember
 
 To write Rmd blog post in Rstudio, make sure that [`build.R`](https://raw.githubusercontent.com/yihui/knitr-jekyll/gh-pages/build.R) is included in the root jekyll directory (this is undocumented):
 - `which jekyll`
 - `servr::jekyll(command='/home/anh/.rvm/gems/ruby-2.3.0/wrappers/jekyll build')`
 
-### base_path
+### base_path (obsolete)
 
 Remove {{ site.url }} from {{ site.url }}{{ site.baseurl }} so that local development works

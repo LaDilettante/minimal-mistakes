@@ -202,7 +202,7 @@ plot(density(sqrt(gibbsR$sigma2)), main = "sigma2 from gibbsR")
 plot(density(sqrt(gibbsC$sigma2)), main = "sigma2 from gibbsC")
 {% endhighlight %}
 
-<img src="/~aql3/figure/source/2016-05-15-Gibbs-sampling-normal-model/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="/figure/source/2016-05-15-Gibbs-sampling-normal-model/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 Comparing the density plots on the left with those on the right, we see that the posterior distributions of $$\theta$$ and $$\sigma^2$$ are exactly the same for the R and Rcpp implementations.
 
@@ -232,6 +232,6 @@ autoplot(benchmark_result) + scale_x_discrete(labels = c("R", "Rcpp"))
 ## which will replace the existing scale.
 {% endhighlight %}
 
-<img src="/~aql3/figure/source/2016-05-15-Gibbs-sampling-normal-model/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
+<img src="/figure/source/2016-05-15-Gibbs-sampling-normal-model/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
 
-And that's the one of the simplest Gibbs sampler in Rcpp. In the next installment we will implement the Metropolis-Hastings sampler in Rcpp. You can click on the categories [Bayesian-sampler-in-Rcpp](/~aql3/bayesian-sampler-in-rcpp) to find more entries in this series.
+And that's the one of the simplest Gibbs sampler in Rcpp. In the next installment we will implement the Metropolis-Hastings sampler in Rcpp. You can click on the categories [Bayesian-sampler-in-Rcpp](/categories/#bayesian-sampler-in-rcpp) to find more entries in this series.

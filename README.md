@@ -33,6 +33,8 @@ I describe my personal modifications below:
 
 ### Nice to have
 
+- Setting up Algolia as search (in `_config.yml` and setting up `.travis.yml`)
+- Setting up htmlproofer to check dead links and images in `.travis.yml` (See Jekyll guide)
 - Setting up TravisCI to run htmlproofer to check for dead links and images
 
 ### Copy to server (when I still hosted at Duke)

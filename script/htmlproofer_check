@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'html-proofer'
+HTMLProofer.check_directory("./_site",
+  {:assume_extension => true,
+   # Allow <href='#'>
+   :allow_hash_href => true,
+   # Cached valid link and don't check for 30d
+   :cache => { :timeframe => '30d' },
+   # Settings for doing things in parallel. Do not verify SSL certificates
+   # https://github.com/gjtorikian/html-proofer/issues/140
+   :typhoeus => {
+     :ssl_verifypeer => false,
+     :ssl_verifyhost => 0}
+  }).run

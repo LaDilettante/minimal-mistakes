@@ -25,7 +25,7 @@ You minimize the offlaner' disruption by starving them of experience. This is be
 
 You starve the offlaner of experience by maintaining the lane equilibrium. Never hit the enemy creeps except for last hitting! If you hit the enemy creeps once, also hit your own creeps once so that the lane equilibrium is not disrupted. Ideally, you want the lane equilibrium right outside of your tower range. This position lets you run back to your tower in case of ganks, while requiring the enemy offlaner to be far away from his tower's protection.
 
-Since the offlaner will inevitably mess with the lane, you need to know how to not only maintain but also dictate the equilibrium. The most important factor is denying the ranged creep. In each creep wave, the ranged creep deals a lot more damage than the melee. If a ranged creep survive, your subsequent waves will deal slightly more damage, causing yet another ranged creep to survive. In only 2 or 3 waves, the lane equilibrium will spiral out of control this way, pushing under the enemy tower, giving the offlaner the experience under the tower's protection.
+Since the offlaner will inevitably mess with the lane, you need to know how to not only maintain but also dictate the equilibrium. The most important factor is denying the ranged creep. In each creep wave, the ranged creep deals a lot more damage than the melee. If a ranged creep survive, your subsequent waves will deal slightly more damage, causing yet another ranged creep to survive. In only 2 or 3 waves, the lane equilibrium will spiral out of control this way, pushing under the enemy tower. We can't allow the offlaner to get experience under the protection of his tower like that.
 
 BSJ explains in this segment how to deny your ranged creep by manipulating creep aggro.
 
@@ -57,7 +57,7 @@ The next level in laning skill is harassing the offlaner while still maintaining
 
 The solution to missing last hits is, once again, to deny your ranged creep. Since your ranged creep is the main source of damage, the enemy creeps won't die as fast once it's dead. This gives you more time away from the creeps to harass the offlaner.
 
-The solution to maintaining lane the equilibrium is attack your creeps as soon as they are in deny range. This way, the equilibrium is always slightly pushing towards your tower. When you harass the offlaner and cause the lane to push in the opposite direction, the equilibrium is still maintained. 
+The solution to maintaining lane the equilibrium is to attack your creeps as soon as they are in deny range. This way, the equilibrium is always slightly pushing towards your tower. When you harass the offlaner and cause the lane to push in the opposite direction, the equilibrium is still maintained. 
 
 ## Midgame
 
@@ -71,7 +71,7 @@ TL;DW: When you are farming the enemy safelane, you can spot all incoming ganks 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t0FwPnOE500?start=345" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-To get the enemy tower, you need to maintain a lead over the enemies. This is why carries never jump straight to farming items (e.g. midas, battle fury) even with a good start. Instead, they always build intermediate items (e.g. wands, aquila) to keep themselves ahead. 
+To get the enemy tower, you need to maintain a lead over the enemies. This is why carries never jump straight to farming items (e.g. midas, battle fury) even with a good start. Instead, they always build early items (e.g. wands, aquila) to keep themselves ahead. 
 
 ### Farming pattern
 
